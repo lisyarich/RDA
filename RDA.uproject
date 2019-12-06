@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{242999CB-471B-513A-34AB-24B53804418F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "RDA",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"UMG"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MagicLeapMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "MagicLeap",
+			"Enabled": false
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		}
+	]
+}
